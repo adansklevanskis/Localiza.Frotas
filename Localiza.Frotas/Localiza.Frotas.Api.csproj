@@ -1,16 +1,16 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DocumentationFile>C:\Users\137222\source\repos\Localiza.Frotas\Localiza.Frotas\Localiza.Frotas.xml</DocumentationFile>
+    <DocumentationFile>$(SolutionDir)\Localiza.Frotas\Localiza.Frotas.xml</DocumentationFile>
     <WarningLevel>2</WarningLevel>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <DocumentationFile>C:\Users\137222\source\repos\Localiza.Frotas\Localiza.Frotas\Localiza.Frotas.xml</DocumentationFile>
+    <DocumentationFile>$(SolutionDir)\Localiza.Frotas\Localiza.Frotas.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
